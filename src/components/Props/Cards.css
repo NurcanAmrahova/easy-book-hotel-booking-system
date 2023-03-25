@@ -1,0 +1,70 @@
+.cards{
+    
+    border:0.5rem solid #FFF;
+    border-radius: 2.5rem;
+   position: relative;
+   overflow:hidden;
+   max-height:30rem
+}
+
+.cards img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 2.5rem;
+    transition: all .8s;
+}
+.cards-body{
+    
+    backdrop-filter:blur(0.6rem);
+    height:100%;
+    width:100%;
+    top:0;
+    right:-100%;
+    left:0;
+    position:absolute;
+    display:none;
+    border-radius:2.5rem;
+    transition: all .8s;
+}
+.cards-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+.cards-body h3{
+    font-size:3rem;
+    color:#04265e;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    
+}
+.cards-info{
+ font-size:1.6rem;
+ justify-content: center;
+ color:#0e2d5a;
+ font-weight:700;
+ padding-bottom: 1rem;
+}
+
+.cards:hover .cards-body{
+ right:0;
+ display: block;
+ transition: all .8s;
+}
+
+.cards:hover img{
+    scale:1.1;
+    transition: 1.1s;
+}
+.hotels{
+    font-size:1.6rem;
+    border: 1px solid #0e2d5a;
+    background-color: #0e2d5a;
+    color:#FFF;
+    border-radius:1rem;
+    padding:0.7rem;
+}

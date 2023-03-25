@@ -1,0 +1,81 @@
+
+.about{
+    background-image: url(http://easybook.kwst.net/images/bg/16.jpg);
+    height:70vh;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.overlay-about{
+    position: absolute;
+    top:0;
+    left:0;
+    height:70vh;
+    background-color: black;
+    opacity:0.5;
+    width:100%;
+    
+}
+.about-text-container{
+    color:#FFF;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+   
+}
+.about-text-container h1{
+    font-size:5rem;
+    z-index:2;
+    padding:1rem 0;
+}
+.about-text-container p{
+    font-size:1.7rem;
+    z-index:2;
+    text-align: center;
+}
+/* ABOUT US SECTION */
+hr{
+    color:blue
+}
+.about-right-side{
+    padding-left:1rem;
+}
+.about-us{
+    padding:10rem 15rem;
+}
+.about-us h3{
+    font-size:3rem;
+    color:#3AACED;
+    
+}
+.about-us p{
+    font-size:1.7rem;
+    color:#878C9F;
+    text-align: justify; 
+}
+/* media */
+@media(max-width:1250px) and (min-width:990px){
+    .about-right-side h3{
+     font-size:2rem
+    }
+    .about-right-side p{
+        font-size:1.2rem
+    }
+}
+@media(max-width:900px){
+    .about-us{
+        padding:8rem;
+    }
+}
+@media(max-width:600px){
+    .about-us{
+        padding:8rem 3rem;
+    }
+}
+@media(max-width:990px){
+    .about-right-side h3{
+        margin-top:2rem;
+       }
+}

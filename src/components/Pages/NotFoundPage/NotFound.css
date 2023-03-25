@@ -1,0 +1,49 @@
+.not-found-section{
+    /* background-color: #c5e6eb; */
+    background-image: url(https://res.cloudinary.com/dd5ay5pph/image/upload/v1678360227/new/beach-hotel-background-design-template-92105036df3c31c75c545fd8360ba7b7_screen_tjxwok.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100%;
+    padding:10rem 5rem ;
+   
+}
+.not-found{
+    padding-bottom:8rem;
+}
+
+
+.left-side{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.not-found .left-side h1{
+font-size:5rem;
+color:rgba(11, 11, 81, 0.83)
+}
+.left-side p{
+    font-size:3rem;
+    color:rgba(0, 0, 255, 0.563);
+    padding:0 6rem;
+}
+.back-home{
+    text-decoration:none;
+    color:#FFF;
+    border:1px solid #F9B90F;
+    background-color: #F9B90F;
+    padding:1.5rem;
+    font-size:1.8rem;
+    border-top-left-radius:3rem;
+    border-bottom-right-radius: 3rem;
+    transition: all .7s;
+}
+.back-home:hover{
+    color:#0e3c57
+}
+.footer-404{
+    position:absolute;
+    bottom:0
+}

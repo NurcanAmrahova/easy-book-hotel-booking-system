@@ -1,0 +1,39 @@
+
+.news-cards{
+    background-color: #FFF;
+    margin:1rem;
+    padding:3rem;
+    border-radius:5rem;
+    color:#092349;
+    min-width:30rem;
+}
+.news-image img {
+   border-radius:3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size:3rem;
+    text-align: center;
+    padding-bottom:2rem;
+}
+.news-info{
+    font-size:1.7rem;
+    text-align: center;
+    padding-top:2rem;
+}
+.author{
+    display:flex;
+    padding-top:3rem;
+    align-items: center;
+}
+.author img{
+    width:4rem;
+    border-radius:50%;
+
+}
+.author small{
+    font-size:1.7rem;
+    padding-left:1.5rem;
+}

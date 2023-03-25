@@ -1,0 +1,111 @@
+ .design-section{
+    background-image: url(http://easybook.kwst.net/images/bg/14.jpg); 
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+    padding:5rem 10rem;
+    background-attachment: fixed;
+    position: relative;
+   
+    
+
+ }
+ 
+ .text-container{
+    z-index:2 !important;
+   border-radius:1rem;
+    background-color: rgba(0, 0, 0, 0.416);
+    padding:5rem ;
+    width:100%;
+    
+    
+ }
+ .text-container h1{
+    font-size:4rem;
+    font-weight:700;
+    color:rgba(255, 255, 255, 0.953);
+    z-index:2 !important;
+    text-align: justify;
+ }
+ .text-container p{
+    font-size:2rem;
+    color:#FFF;
+    padding-top:3rem;
+    z-index:2;
+    text-align: justify;
+    margin-bottom:3rem
+ }
+
+ /* button design */
+ .lets-start{
+text-decoration:none;
+font-size:2rem;
+z-index:333;
+position:relative;
+color:#FFF;
+font-weight:500;
+padding:1.2rem 2rem;;
+overflow: hidden;
+display:inline-block;
+
+
+ }
+
+
+ .lets-start:hover{
+  color:#e6b32a
+}
+
+.lets-start span{
+  position: absolute;
+  display:block;
+}
+.lets-start span:nth-child(1){
+  top:0;
+  left:-100%;
+  width:100%;
+  height:2px;
+  background: linear-gradient(90deg, transparent, #e6b32a);
+}
+.lets-start:hover span:nth-child(1){
+  left:100%;
+  transition: 1s;
+}
+.lets-start span:nth-child(3){
+  bottom:0;
+  right:-100%;
+  width:100%;
+  height:2px;
+  background: linear-gradient(270deg, transparent, #e6b32a);
+}
+.lets-start:hover span:nth-child(3){
+  right:100%;
+  transition: 1s;
+}
+.lets-start span:nth-child(2){
+  top:-100%;
+  right:0;
+  width:2px;
+  height:100%;
+  background: linear-gradient(180deg, transparent, #e6b32a);
+}
+.lets-start:hover span:nth-child(2){
+  top:100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.lets-start span:nth-child(4){
+  bottom:-100%;
+  left:0;
+  width:2px;
+  height:100%;
+  background: linear-gradient(360deg, transparent, #e6b32a);
+}
+.lets-start:hover span:nth-child(4){
+  bottom:100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+
+

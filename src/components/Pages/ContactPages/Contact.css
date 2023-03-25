@@ -1,0 +1,187 @@
+.contact-section{
+    background-image: url(https://res.cloudinary.com/dd5ay5pph/image/upload/v1678905224/new/2_loijvx.jpg);
+    background-repeat: no-repeat;
+    height:100%;
+    background-size: cover;
+    background-position: bottom; 
+    background-attachment: fixed;
+     display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.contact{
+  margin: auto;
+  width:80%;
+  padding:5rem 0;
+  background-color: rgba(0, 0, 0, 0.350);
+  border-radius: 2rem;
+  margin: 8rem 0 23rem;
+  
+}
+.contact-left-side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.adresss{
+    background-color: rgba(0, 0, 0, 0.378);
+    padding:5rem 7rem;
+    border-radius: 2rem;
+   
+}
+.adresss h3{
+    font-size:3rem;
+    color:#FFF;
+    padding-bottom: 2rem;
+}
+hr{
+    color: #FFF;
+
+}
+.info small,
+.info a{
+    color:#FFF;
+    font-size:1.8rem;
+    padding-right:1rem;
+    text-decoration: none;
+   transition:all .8s;
+}
+.info a:hover{
+    color:rgb(189, 12, 12)
+}
+.class{
+    padding:1rem 0;
+}
+.contact-social-media{
+    padding-top: 1rem;
+    font-size:3rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-social-media a{
+    color:#FFF;
+    padding-right:1rem;
+    transition: all .8s;
+}
+.contact-social-media a:hover{
+transform: scale(1.3);
+color:rgb(189, 12, 12)
+}
+.contact-right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-right-side form{
+    width:100%;
+}
+.contact-right-side form input{
+    border:1px solid rgba(0, 0, 0, 0.397);
+    box-shadow:0.7rem 0.5rem 0.5rem 0.1rem rgb(37, 2, 2)
+}
+.contact-right-side form input:focus{
+    box-shadow: 0.7rem 0.5rem 0.5rem 0.1rem rgb(59, 3, 3);
+    border-color:rgb(95, 5, 5);
+    outline:0;
+}
+.map{
+ display: flex;
+ justify-content: center;
+}
+.map:hover{
+  letter-spacing: 0.1rem;
+  scale:1.1
+}
+.text-email input{
+    width:43%;
+    padding:2rem;
+    border-radius:1rem;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin-right:2rem;
+    color: #FFF;
+    font-size: 1.7rem;
+}
+.your-message input{
+    margin-top:2rem;
+    width:90%;
+    padding:1rem 2rem 15rem;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius:1rem;
+    color:#FFF;
+    font-size: 1.7rem;
+}
+
+
+::placeholder{
+    font-size: 1.6rem;
+}
+.submit-button{
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    margin-top:4rem;
+    padding:1rem 2rem;
+    color:#FFF;
+    font-size:1.7rem;
+    background-color: rgb(97, 4, 4);
+    text-decoration:none;
+    
+    
+}
+.contact-right-side form a:hover{
+    transition: all .1s;
+    color:#FFF;
+}
+/* Button Design */
+
+.submit-button span{
+    position: absolute;
+    display:block;
+  }
+  .submit-button span:nth-child(1){
+    top:0;
+    left:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(90deg, transparent, #FFF);
+  }
+  .submit-button:hover span:nth-child(1){
+    left:100%;
+    transition: 1s;
+  }
+  .submit-button span:nth-child(3){
+    bottom:0;
+    right:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(270deg, transparent, #FFF);
+  }
+  .submit-button:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+  }
+  .submit-button span:nth-child(2){
+    top:-100%;
+    right:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(180deg, transparent, #FFF);
+  }
+  .submit-button:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  .submit-button span:nth-child(4){
+    bottom:-100%;
+    left:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(360deg, transparent,#FFF);
+  }
+  .submit-button:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }

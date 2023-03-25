@@ -1,0 +1,103 @@
+.news-header{
+ height:60vh;
+ background-image: url(http://easybook.kwst.net/images/bg/12.jpg);
+ background-position:bottom;
+ background-attachment: fixed;
+}
+.news-text{
+    color:#123364;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.news-text h1{
+    font-size:5.5rem;
+}
+.news-text p{
+    font-size:1.8rem;
+    padding-top:2rem
+}
+.news-cards-section{
+    padding:10rem 5rem ;
+    background-color: #c9978a8f;
+    opacity:0.9
+}
+/* Follow us section */
+.find-us-section{
+   padding:15rem 5rem 30rem;
+   background-image: url(http://easybook.kwst.net/images/bg/12.jpg);
+   background-attachment: fixed;
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   
+   
+}
+.find-us-section h1{
+    text-align: center;
+    color:#123364;
+    font-size:3.5rem;
+    text-transform: capitalize;
+    font-weight:750
+}
+.social-media-section{
+    padding: 5rem;
+    
+}
+.social-media-section a{
+    max-width:20rem;
+    text-decoration:none;
+    font-size:2.8rem;
+    color:#123364;
+    display: flex;
+    transition: all .8s;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ecf6f8dd;
+    background-color: #ecf6f8dd;
+    padding:2rem;
+    border-radius:5rem;
+    margin-right:2rem;
+    
+}
+.social-media-section a:hover{
+   scale:1.1
+}
+.social-media-section small{
+    padding-left:1rem;
+}
+.facebook-icon{
+    font-size:3.5rem;
+    color:blue;
+    border-radius:50%
+}
+.instagram-icon{
+    font-size:3.5rem;
+    color: #E4405F;
+}
+.twitter-icon{
+font-size:3.5rem;
+color:#2779a9;
+}
+.youtube-icon{
+    font-size: 3.5rem;
+    color:red;
+}
+.mail-adress-section{
+    padding:5rem;
+    
+    background-color:#c9978a67;
+}
+.connection{
+    display:flex;
+    font-size:2rem;
+}
+.connection a{
+    text-decoration: none;
+    padding-left:2rem;
+}
+
+

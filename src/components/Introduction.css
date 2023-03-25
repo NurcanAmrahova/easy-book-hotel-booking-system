@@ -1,0 +1,86 @@
+.intro{
+    background-image: url("http://easybook.kwst.net/images/bg/22.jpg"); 
+    height:100vh;
+    background-attachment: fixed;
+   position: relative;
+}
+.overlay-image{
+    background-color: black;
+    height:100vh;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:0.6
+}
+.intro-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+.star-icon-container{
+    z-index:2
+}
+.little-star{
+    color:#D0DBDB;
+    font-size:2.5rem;
+}
+.big-star{
+    color:#F9B90F;
+    font-size:3rem;
+   
+}
+.easybook{
+    font-size:6rem;
+    color:#FFF;
+    z-index:2 !important;
+    font-weight:700;
+    text-align: center;
+}
+.intro-container p{
+    color:#FFF;
+    font-size:3rem;
+    font-weight:700;
+    z-index:2;
+    padding-bottom:3rem;
+    text-align: center;
+}
+.search-bar{
+    width:100%;
+    max-width:70rem;
+    background-color: #FFF;
+    z-index:2;
+    border-radius:5rem;
+    padding:1.5rem 2rem;
+}
+
+.search-bar input{
+    background-color: transparent;
+    border:0;
+    outline: none;
+    flex:1;
+    width:90%;
+    font-size:2rem;
+    padding:0 3rem 0;
+}
+
+.search-bar button{
+    border:1px solid #b9e1f8;
+    background-color:#b9e1f8;
+    border-radius:50%;
+    padding:0.7rem;
+}
+.search-icon{
+    width:3rem;
+    height:3rem;
+    color: #2e79a5;
+    
+}
+.search-bar button:hover{
+    scale:1.1;
+    transition: all .8s;
+}

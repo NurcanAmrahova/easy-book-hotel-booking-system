@@ -1,0 +1,21 @@
+.popular-destination-sector{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:5rem ;
+}
+.popular-destination-sector h2{
+    font-size:3rem;
+    color:#184588;
+    padding-top:1rem;
+}
+.popular-destination-sector p{
+    font-size: 1.6rem;
+    color:#878C9F;
+    padding-top: 1rem;
+}
+.cards-container{
+    padding:7rem 5rem;
+}
+
+

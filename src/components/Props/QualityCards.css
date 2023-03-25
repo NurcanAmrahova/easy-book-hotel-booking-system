@@ -1,0 +1,29 @@
+.quality-card{
+    padding:5rem ;
+    background-color: #FFF;
+    border-radius:3rem;
+   width:100%;
+   margin-top:3rem;
+   transition: all .8s;
+   box-shadow:1rem 2rem 1rem 0.5rem rgba(0, 0, 0, 0.363)
+}
+.quality-card img{
+    width:100px;
+    padding-bottom:2rem;
+    box-shadow: 2rem 2rem 2rem 2rem solid #000;
+}
+.quality-card h4{
+font-size:2.5rem;
+color:#184588;
+
+}
+.quality-card .info{
+    font-size:2rem;
+    color:#878C9F;
+    
+}
+.quality-card:hover{
+    box-shadow:1rem 2rem 1rem 0.5rem #1979b16f
+
+   
+}

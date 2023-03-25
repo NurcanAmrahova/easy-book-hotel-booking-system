@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    font-size:62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Media Query */
+@media(max-width:960px){
+    .navigation-links a{
+        display:none;
+    }
+    .icon-bar .bar-icon{
+        display:flex;
+    }
+}
+@media(max-width:990px) and (min-width:600px){
+    
+    .last-child{
+      margin: auto;
+    }
+    .quality-card{
+        min-height: 500px;
+        margin-top:3rem;
+        max-height:550px;
+    }
+}
+@media(max-width:1497px) and (min-width:1300px){
+    .quality-card{
+        min-height:450px;
+    }
+}
+@media(max-width:1300px) and (min-width:990px){
+    .quality-card{
+        min-height:600px;
+    }
+}
+@media(max-width:600px){
+    .WhyChooseUs-section{
+        background-color: #FFF;
+    }
+    .quality-card{
+        width:100%;
+    }
+}
+@media(max-width:800px){
+    .intro .search-bar{
+        max-width:90%;
+    }
+    .search-bar button{
+        width:10%;
+        background-color: #FFF;
+    }
+    .footer{
+        display: flex;
+        flex-direction:column;
+    }
+}
+@media(max-width:1320px){
+    .counter-container .counter{
+        margin-top:2rem
+    }
+}
+@media(max-width:1000px){
+    .banner{
+        height:30rem;
+    }
+}
+/* NEWS PAGE */
+@media(max-width:991px){
+    .social-media-section a{
+        margin-bottom:2rem;
+    }
+}
+@media(max-width:767px){
+    .social-media-section a{
+    min-width:100%;
+    }
+}
+@media(max-width:770px){
+    .mail-adress-section .connection {
+        text-align: center;
+    }
+}
+/* Contact PAGE */
+@media(max-width:768px){
+    
+    .contact-left-side{
+        margin-bottom:5rem;
+    }
+    .contact-right-side .text-email input{
+     width:100%;
+     margin-bottom:2rem;
+     
+    }
+    .contact-right-side .your-message input{
+        width:100%;
+        margin: auto;
+    }
+}
+/* popular destinations */
+@media(max-width:1050px){
+    .cards .cards-body h3{
+    font-size: 2.1rem;
+   }
+   .cards .cards-info{
+    font-size:1.5rem;
+   }
+   .hotels{
+    font-size:1.4rem
+   }
+
+}
+@media(max-width:978px){
+    .cards{
+        margin-top:1.5rem
+    }
+   .popular-destination-sector .cards-container .NewYork{
+    margin:auto
+   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
