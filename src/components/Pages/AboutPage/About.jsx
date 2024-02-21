@@ -7,6 +7,9 @@ import { AiFillStar } from 'react-icons/ai'
 import Footer from '../../Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {DefaultPlayer as Video} from 'react-html5video'
+import AboutVideo from './Video/975082248.mp4'
+import 'react-html5video/dist/styles.css'
 
 
 
@@ -34,7 +37,13 @@ const About = () => {
 
             <div className="about-us row" data-aos="zoom in" data-aos-duration="2000">
                 <div className="about-left-side col-12 col-md-12 col-lg-6" data-aos="zoom-in-left" data-aos-duration="2200">
-                    <img src="http://easybook.kwst.net/images/all/9.jpg" alt="" className='w-100'/>
+                    {/* <img src="http://easybook.kwst.net/images/all/9.jpg" alt="" className='w-100'/> */}
+                    <Video autoPlay loop 
+                    poster="http://easybook.kwst.net/images/all/9.jpg"
+                    >
+
+                    <source src={AboutVideo} type="video/webm"/>
+                    </Video>
                  
                 </div>
                 <div className="about-right-side col-12 col-md-12 col-lg-6" data-aos="zoom-in-left" data-aos-duration="2200">

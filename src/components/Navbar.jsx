@@ -68,6 +68,7 @@ const closeOverlayMenu = () => {
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
             <Link to="*">404</Link>
+            
             </div>
           </div>
         <Link to="/news">News</Link>

@@ -10,12 +10,9 @@ import ComingSoon from './components/Pages/ComingSoonPage/ComingSoon';
 import About from './components/Pages/AboutPage/About';
 import Contact from './components/Pages/ContactPages/Contact';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import { Loader } from "react-spinners";
 import Map from './components/Pages/MapPage/MapContainer';
 
-
-
-function App(isloading) {
+function App() {
 
   return (
     <>
@@ -30,9 +27,9 @@ function App(isloading) {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path="/map"  element={<Map/>}  />
+
   </Routes>
 
-  
   </BrowserRouter>
 </>
   );

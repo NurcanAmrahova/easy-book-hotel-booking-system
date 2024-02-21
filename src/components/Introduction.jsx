@@ -33,7 +33,7 @@ const Introduction = () => {
         
         <p data-aos="flip-right" data-aos-duration="1500">Let's start exploring the world <br/> together with EasyBook</p>
         <form action="" className='search-bar' data-aos="fade-up" data-aos-duration="2000">
-          <input type="text"  placeholder='Search Anything . . .'/>
+          <input type="text"  placeholder='Search Anything    . . .'/>
           <button type='submit'><BiSearchAlt className='search-icon'/></button>
         </form>
         </div>

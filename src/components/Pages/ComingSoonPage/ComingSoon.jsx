@@ -22,7 +22,7 @@ const ComingSoon = () => {
   const [seconds, setSeconds] = useState('00')
 
 
-  let interval = useRef
+  let interval = useRef()
 
   useEffect(() => {
     GeriSayim()
